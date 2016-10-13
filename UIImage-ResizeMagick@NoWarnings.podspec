@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UIImage-ResizeMagick@NoWarnings"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Resizing UIImage on iOS. ImageMagick-style."
 
   s.description  = <<-DESC
@@ -24,7 +24,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
 
   s.source       = { :git => "https://github.com/EmoneyCN/UIImage-ResizeMagick.git", :tag => s.version.to_s }
-  s.source_files  = '*.{h,m}'
+  s.source_files = '*.{h,m}'
   s.requires_arc = true
+
+  s.module_name  = 'UIImageResizeMagick'
+  s.header_dir   = 'UIImage-ResizeMagick'
 
 end
