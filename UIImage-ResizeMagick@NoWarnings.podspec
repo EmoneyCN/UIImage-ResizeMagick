@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UIImage-ResizeMagick@NoWarnings"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "Resizing UIImage on iOS. ImageMagick-style."
 
   s.description  = <<-DESC
@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.module_name  = 'UIImageResizeMagick'
-  s.header_dir   = 'UIImage-ResizeMagick'
+  s.header_dir   = 'UIImageResizeMagick'
 
 end
